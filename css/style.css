@@ -1,0 +1,78 @@
+@charset "UTF-8";
+
+body {
+    display: flex;
+}
+
+header {
+    background-color: rgb(232, 231, 231);
+    width: 33%;
+    padding: 5rem 0;
+}
+
+.user-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.user-name-text-top {
+    font-size: x-large;
+    letter-spacing: 0.3rem;
+    justify-content: end;
+    margin-bottom: 0;
+}
+
+.user-name-text-bottom {
+    font-size: x-large;
+    letter-spacing: 0.8rem;
+    font-weight: bold;
+    margin-top: 0rem;
+}
+
+.sns-icon-container {
+    display: flex;
+    justify-content: center;
+}
+
+.sns-icon-discord {
+    padding: 0 3rem;
+}
+
+.sns-icon-instagram {
+    padding: 0 3rem;
+}
+
+.user-sns-email-container {
+    display: flex;
+    justify-content: center;
+}
+.user-sns-email-icon-container {
+    display: flex;
+    justify-content: center;
+    padding-right: 1rem;
+}
+
+.user-sns-discord-container {
+    display: flex;
+    justify-content: center;
+}
+
+.user-sns-discord-icon-container {
+    display: flex;
+    justify-content: center;
+    padding-right: 1rem;
+
+}
+
+.user-sns-instagram-container {
+    display: flex;
+    justify-content: center;
+}
+
+.user-sns-instagram-icon-container {
+    display: flex;
+    justify-content: center;
+    padding-right: 1rem;
+
+}
