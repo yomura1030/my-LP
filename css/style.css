@@ -17,7 +17,7 @@ main {
 
 h1 {
     padding-top: 1rem;
-    letter-spacing: 0.4rem;
+    letter-spacing: 0.8rem;
     text-align: center;
     color: rgb(99, 157, 243);
 }
@@ -86,5 +86,96 @@ h1 {
     display: flex;
     justify-content: center;
     padding-right: 1rem;
-
 }
+
+.main-content {
+    max-width: max-content;
+    margin: auto;
+}
+
+.fav-character-title-container {
+    display: flex;
+    justify-content: start;
+}
+
+.fav-character-title {
+    padding-left: 1.5rem;
+}
+
+
+.fav-character-title {
+    font-size: 2rem;
+    font-weight: bold;
+    letter-spacing: 0.3rem;
+}
+
+.fav-character-container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.fav-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.fav-icon-container {
+    display: flex;
+    align-items: center;
+    padding-right: 1.5rem;
+}
+
+.fav-text-container {
+    display: flex;
+}
+
+.fav-text {
+    font-size: 1rem;
+    font-weight: bold;
+}
+
+.character-title-container {
+    display: flex;
+}
+
+.character-mbti-text {
+    display: flex;
+    align-items: center;
+}
+
+.character-container {
+    display: flex;
+    width: 60%;
+    justify-content: space-around;
+}
+
+.infp-title {
+    display: flex;
+    justify-content: center;
+    font-size: 1.2rem;
+    font-weight: bold;
+    margin: 0;
+}
+
+/* .character-container {
+    width: 60%;
+}
+
+.character-details-container {
+    display: gird;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+}
+
+
+.character-mbti-text {
+    font-size: 1.2rem;
+    font-weight: bold;
+}
+
+.infp-title {
+    margin: 0;
+    font-size: 1.3rem;
+    font-weight: bold;
+} */
