@@ -243,3 +243,15 @@ section {
 .interest-lang-container {
   list-style: none;
 }
+
+.my-product-title-container {
+  display: flex;
+}
+
+.my-product-title {
+  padding-left: 1.5rem;
+    font-size: 2rem;
+    font-weight: bold;
+    letter-spacing: 0.3rem;
+
+}
