@@ -228,5 +228,18 @@ section {
     font-size: 2rem;
     font-weight: bold;
     letter-spacing: 0.3rem;
+}
 
+.interest-lang-container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.interest-lang-text {
+  font-size: 1.2rem;
+  font-weight: bold;
+}
+
+.interest-lang-container {
+  list-style: none;
 }
