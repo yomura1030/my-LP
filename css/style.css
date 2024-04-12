@@ -1,0 +1,220 @@
+@charset "UTF-8";
+
+body {
+    display: flex;
+}
+
+header {
+    background-color: rgb(232, 231, 231);
+    width: 33%;
+    padding: 5rem 0;
+}
+
+main {
+    width: 67%;
+    background-color: rgb(249, 245, 245);
+}
+
+h1 {
+    padding-top: 1rem;
+    letter-spacing: 0.8rem;
+    text-align: center;
+    color: rgb(99, 157, 243);
+}
+
+section {
+  margin-bottom: 6rem;
+}
+
+.user-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.user-name-text-top {
+    font-size: x-large;
+    letter-spacing: 0.3rem;
+    justify-content: end;
+    margin-bottom: 0;
+}
+
+.user-name-text-bottom {
+    font-size: x-large;
+    letter-spacing: 0.8rem;
+    font-weight: bold;
+    margin-top: 0rem;
+}
+
+.sns-icon-container {
+    display: flex;
+    justify-content: center;
+}
+
+.sns-icon-discord {
+    padding: 0 3rem;
+}
+
+.sns-icon-instagram {
+    padding: 0 3rem;
+}
+
+.user-sns-email-container {
+    display: flex;
+    justify-content: center;
+}
+.user-sns-email-icon-container {
+    display: flex;
+    justify-content: center;
+    padding-right: 1rem;
+}
+
+.user-sns-discord-container {
+    display: flex;
+    justify-content: center;
+}
+
+.user-sns-discord-icon-container {
+    display: flex;
+    justify-content: center;
+    padding-right: 1rem;
+
+}
+
+.user-sns-instagram-container {
+    display: flex;
+    justify-content: center;
+}
+
+.user-sns-instagram-icon-container {
+    display: flex;
+    justify-content: center;
+    padding-right: 1rem;
+}
+
+.main-content {
+    max-width: max-content;
+    margin: auto;
+}
+
+.fav-character-title-container {
+    display: flex;
+    justify-content: start;
+}
+
+
+.fav-character-title {
+  padding-left: 1.5rem;
+    font-size: 2rem;
+    font-weight: bold;
+    letter-spacing: 0.3rem;
+}
+
+.fav-character-container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.fav-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.fav-icon-container {
+    display: flex;
+    align-items: center;
+    padding-right: 1.5rem;
+}
+
+.fav-text-container {
+    display: flex;
+}
+
+.fav-text {
+    font-size: 1rem;
+    font-weight: bold;
+}
+
+.character-title-container {
+    display: flex;
+}
+
+.character-mbti-text {
+    display: flex;
+    align-items: center;
+    font-size: 1.2rem;
+    font-weight: bold;
+}
+
+.character-arrow-icon-container {
+  display: flex;
+  justify-content: center;
+}
+
+.character-infp-container {
+  position: relative;
+}
+
+.character-container {
+    display: flex;
+    width: 60%;
+    justify-content: space-between;
+}
+
+.infp-title {
+    position: absolute;
+    top: 0;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 1.2rem;
+    font-weight: bold;
+    margin: 0;
+}
+
+.future-experience-container {
+  display: flex;
+}
+
+.future-experience-title-container {
+  display: flex;
+}
+
+.future-experience-icon-container {
+  display: flex;
+  align-items: center;
+}
+
+.future-experience-title {
+  padding-left: 1.5rem;
+    font-size: 2rem;
+    font-weight: bold;
+    letter-spacing: 0.3rem;
+}
+
+.future-experience-text-container {
+  list-style: none;
+  display: flex;
+}
+
+.future-experience-date {
+  margin-right: 5rem;
+  font-size: 1.2rem;
+  font-weight: bold;
+}
+
+.experience-text {
+  font-size: 1.2rem;
+  font-weight: bold;
+}
+
+.future-text {
+  font-size: 1.2rem;
+  font-weight: bold;
+  color: rgb(99, 157, 243);
+}
+
+.future-experience-graph-icon-container {
+  display: flex;
+  align-items: end;
+}
