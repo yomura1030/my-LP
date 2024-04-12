@@ -244,6 +244,10 @@ section {
   list-style: none;
 }
 
+.my-product-main-container {
+  display: flex;
+}
+
 .my-product-title-container {
   display: flex;
 }
@@ -291,4 +295,13 @@ section {
 .my-product-use-lang-text {
   font-size: 1.2rem;
   font-weight: bold;
+}
+
+.my-product-movie-container {
+  display: flex;
+  align-items: end;
+}
+
+.click-container {
+  display: flex;
 }
