@@ -243,3 +243,88 @@ section {
 .interest-lang-container {
   list-style: none;
 }
+
+.my-product-main-container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.my-product-title-container {
+  display: flex;
+}
+
+.my-product-title {
+  padding-left: 1.5rem;
+    font-size: 2rem;
+    font-weight: bold;
+    letter-spacing: 0.3rem;
+}
+
+.my-product-container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.my-product-main-content {
+  display: flex;
+}
+
+.my-product-text-title-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  margin-right: 4rem;
+}
+
+.my-product-text-container {
+  display: flex;
+}
+
+.arrow-icon-container {
+  display: flex;
+  align-items: center;
+  padding-right: 1rem;
+}
+
+
+.my-product-text-title {
+  font-size: 1.2rem;
+  font-weight: bold;
+}
+
+.my-product-details-container {
+  display: flex;
+  flex-direction: column;
+  padding-left: 1.5rem;
+}
+
+.my-product-app-name-text {
+  font-size: 1.2rem;
+  font-weight: bold;
+  color: rgb(99, 157, 243);
+}
+
+.my-product-text {
+  font-size: 1.2rem;
+  font-weight: bold;
+}
+
+
+.my-product-movie-container {
+  display: flex;
+  align-items: end;
+}
+
+.click-container {
+  display: flex;
+  align-items: center;
+}
+
+.click-text {
+  font-size: 1.2rem;
+  font-weight: bold;
+}
+
+.click-icon {
+  display: flex;
+}
