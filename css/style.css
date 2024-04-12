@@ -144,10 +144,15 @@ h1 {
     align-items: center;
 }
 
+.character-arrow-icon-container {
+  display: flex;
+  justify-content: center;
+}
+
 .character-container {
     display: flex;
     width: 60%;
-    justify-content: space-around;
+    justify-content: space-between;
 }
 
 .infp-title {
