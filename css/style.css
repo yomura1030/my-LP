@@ -246,6 +246,7 @@ section {
 
 .my-product-main-container {
   display: flex;
+  justify-content: space-between;
 }
 
 .my-product-title-container {
