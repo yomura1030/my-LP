@@ -149,6 +149,10 @@ h1 {
   justify-content: center;
 }
 
+.character-infp-container {
+  position: relative;
+}
+
 .character-container {
     display: flex;
     width: 60%;
@@ -156,8 +160,10 @@ h1 {
 }
 
 .infp-title {
-    display: flex;
-    justify-content: center;
+    position: absolute;
+    top: 0;
+    left: 50%;
+    transform: translate(-50%, -50%);
     font-size: 1.2rem;
     font-weight: bold;
     margin: 0;
