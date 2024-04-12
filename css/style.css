@@ -253,5 +253,42 @@ section {
     font-size: 2rem;
     font-weight: bold;
     letter-spacing: 0.3rem;
+}
 
+.arrow-img-container {
+  display: flex;
+  justify-content: center;
+}
+
+.my-product-app-name-container {
+  display: flex;
+}
+
+.my-product-about-container {
+  display: flex;
+}
+
+.my-product-use-lang-container {
+  display: flex;
+}
+
+.my-product-text-title {
+  font-size: 1.2rem;
+  font-weight: bold;
+}
+
+.my-product-app-name-text {
+  font-size: 1.2rem;
+  font-weight: bold;
+  color: rgb(99, 157, 243);
+}
+
+.my-product-about-text {
+  font-size: 1.2rem;
+  font-weight: bold;
+}
+
+.my-product-use-lang-text {
+  font-size: 1.2rem;
+  font-weight: bold;
 }
