@@ -142,6 +142,8 @@ h1 {
 .character-mbti-text {
     display: flex;
     align-items: center;
+    font-size: 1.2rem;
+    font-weight: bold;
 }
 
 .character-arrow-icon-container {
@@ -169,24 +171,3 @@ h1 {
     margin: 0;
 }
 
-/* .character-container {
-    width: 60%;
-}
-
-.character-details-container {
-    display: gird;
-    grid-template-columns: 1fr 1fr 1fr;
-    grid-template-rows: 1fr 1fr;
-}
-
-
-.character-mbti-text {
-    font-size: 1.2rem;
-    font-weight: bold;
-}
-
-.infp-title {
-    margin: 0;
-    font-size: 1.3rem;
-    font-weight: bold;
-} */
