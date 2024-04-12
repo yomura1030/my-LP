@@ -187,3 +187,25 @@ section {
     font-weight: bold;
     letter-spacing: 0.3rem;
 }
+
+.future-experience-text-container {
+  list-style: none;
+  display: flex;
+}
+
+.future-experience-date {
+  margin-right: 5rem;
+  font-size: 1.2rem;
+  font-weight: bold;
+}
+
+.experience-text {
+  font-size: 1.2rem;
+  font-weight: bold;
+}
+
+.future-text {
+  font-size: 1.2rem;
+  font-weight: bold;
+  color: rgb(99, 157, 243);
+}
