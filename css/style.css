@@ -10,6 +10,18 @@ header {
     padding: 5rem 0;
 }
 
+main {
+    width: 67%;
+    background-color: rgb(249, 245, 245);
+}
+
+h1 {
+    padding-top: 1rem;
+    letter-spacing: 0.4rem;
+    text-align: center;
+    color: rgb(99, 157, 243);
+}
+
 .user-container {
     display: flex;
     flex-direction: column;
