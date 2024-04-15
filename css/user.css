@@ -11,6 +11,66 @@ nav {
     height: 6rem;
 }
 
+.user-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.user-img-container {
+    display: flex;
+    justify-content: center;
+}
+
+.user-name-text-top {
+    display: flex;
+    justify-content: center;
+    font-size: 2rem;
+    letter-spacing: 0.3rem;
+    margin-bottom: 0;
+}
+
+.user-name-text-bottom {
+    display: flex;
+    justify-content: center;
+    font-size: 2rem;
+    letter-spacing: 0.6rem;
+    font-weight: bold;
+    margin-top: 0;
+}
+
+.user-sns-email-container {
+    display: flex;
+}
+
+.user-sns-email-icon-container {
+    display: flex;
+    justify-content: center;
+    padding-right: 1rem;
+}
+
+.user-sns-discord-container {
+    display: flex;
+    justify-content: center;
+}
+
+.user-sns-discord-icon-container {
+    display: flex;
+    justify-content: center;
+    padding-right: 1rem;
+}
+
+.user-sns-instagram-container {
+    display: flex;
+    justify-content: center;
+}
+
+.user-sns-instagram-icon-container {
+    display: flex;
+    justify-content: center;
+    padding-right: 1rem;
+}
+
 .icon-link-container {
     display: flex;
     justify-content: space-around;
