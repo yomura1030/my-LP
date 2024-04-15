@@ -405,6 +405,8 @@ nav {
     margin: auto;
 }
   .icon-link-container {
+    position: sticky;
+    bottom: 0;
     display: flex;
     justify-content: space-around;
     align-items: center;
