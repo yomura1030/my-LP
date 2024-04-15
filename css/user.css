@@ -1,0 +1,20 @@
+@charset "UTF-8";
+
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 906px;
+}
+
+nav {
+    height: 6rem;
+}
+
+.icon-link-container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+    background-color: rgb(217, 217, 217);
+}
