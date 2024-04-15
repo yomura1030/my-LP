@@ -253,23 +253,15 @@ nav {
     letter-spacing: 0.3rem;
 }
 
-/* .interest-lang-container {
-  display: flex;
-  justify-content: space-between;
-}
-
-.interest-content {
-  padding: 0;
-}
-
-.interest-lang-container {
-  list-style: none;
-}
-
-.interest-lang-text {
+.interest-lang-framework-title {
   font-size: 1.2rem;
   font-weight: bold;
-} */
+}
+
+.interest-tool-title {
+  font-size: 1.2rem;
+  font-weight: bold;
+}
 
 .interest-link-container-top {
   display: flex;
