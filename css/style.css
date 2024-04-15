@@ -253,7 +253,7 @@ nav {
     letter-spacing: 0.3rem;
 }
 
-.interest-lang-container {
+/* .interest-lang-container {
   display: flex;
   justify-content: space-between;
 }
@@ -269,6 +269,14 @@ nav {
 .interest-lang-text {
   font-size: 1.2rem;
   font-weight: bold;
+} */
+
+.interest-link {
+  display: flex;
+}
+
+.interest-link-text {
+  margin-left: 0.5rem;
 }
 
 .my-product-main-container {
