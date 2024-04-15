@@ -253,22 +253,43 @@ nav {
     letter-spacing: 0.3rem;
 }
 
-.interest-lang-container {
-  display: flex;
-  justify-content: space-between;
-}
-
-.interest-content {
-  padding: 0;
-}
-
-.interest-lang-container {
-  list-style: none;
-}
-
-.interest-lang-text {
+.interest-lang-framework-title {
   font-size: 1.2rem;
   font-weight: bold;
+}
+
+.interest-tool-title {
+  font-size: 1.2rem;
+  font-weight: bold;
+}
+
+.interest-link-container-top {
+  display: flex;
+
+}
+
+.interest-link-container-bottom {
+  display: flex;
+}
+
+.interest-link {
+  display: flex;
+	margin: 0 0.4em 0.6rem 0;
+	padding: .6em;
+	line-height: 1;
+	text-decoration: none;
+	background-color: rgb(249, 245, 245);
+	border: 1px solid rgb(99, 157, 243);
+	border-radius: 2em;
+}
+
+.interest-link-text {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0;
+  margin-left: 0.5rem;
+  color: rgb(99, 157, 243);
 }
 
 .my-product-main-container {
@@ -383,6 +404,36 @@ nav {
   font-weight: bold;
   letter-spacing: 0.3rem;
 }
+
+
+.thinking-title-container {
+  display: flex;
+}
+
+.thinking-title {
+  padding-left: 1.5rem;
+    font-size: 2rem;
+    font-weight: bold;
+    letter-spacing: 0.3rem;
+}
+
+.thinking-main-title {
+    font-size: 2rem;
+    font-weight: bold;
+    letter-spacing: 0.3rem;
+    color: rgb(99, 157, 243);
+}
+
+.thinking-main-container {
+  display: flex;
+}
+
+.thinking-main-text {
+  font-size: 1.2rem;
+  font-weight: bold;
+  letter-spacing: 0.3rem;
+}
+
 
 .icon-link-container {
   display: none;
