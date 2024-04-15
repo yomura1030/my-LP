@@ -384,6 +384,36 @@ nav {
   letter-spacing: 0.3rem;
 }
 
+
+.thinking-title-container {
+  display: flex;
+}
+
+.thinking-title {
+  padding-left: 1.5rem;
+    font-size: 2rem;
+    font-weight: bold;
+    letter-spacing: 0.3rem;
+}
+
+.thinking-main-title {
+    font-size: 2rem;
+    font-weight: bold;
+    letter-spacing: 0.3rem;
+    color: rgb(99, 157, 243);
+}
+
+.thinking-main-container {
+  display: flex;
+}
+
+.thinking-main-text {
+  font-size: 1.2rem;
+  font-weight: bold;
+  letter-spacing: 0.3rem;
+}
+
+
 .icon-link-container {
   display: none;
 }
