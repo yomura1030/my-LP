@@ -172,6 +172,10 @@ section {
     margin: 0;
 }
 
+.future-experience-text-list {
+  padding: 0;
+}
+
 .future-experience-container {
   display: flex;
 }
