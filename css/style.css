@@ -328,3 +328,31 @@ section {
 .click-icon {
   display: flex;
 }
+
+.decision-title-container {
+  display: flex;
+}
+
+.decision-title {
+  padding-left: 1.5rem;
+    font-size: 2rem;
+    font-weight: bold;
+    letter-spacing: 0.3rem;
+}
+
+.decision-main-title {
+    font-size: 2rem;
+    font-weight: bold;
+    letter-spacing: 0.3rem;
+    color: rgb(99, 157, 243);
+}
+
+.decision-main-container {
+  display: flex;
+}
+
+.decision-main-text {
+  font-size: 1.2rem;
+  font-weight: bold;
+  letter-spacing: 0.3rem;
+}
