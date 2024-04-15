@@ -379,3 +379,21 @@ section {
   font-weight: bold;
   letter-spacing: 0.3rem;
 }
+
+/* メディアクエリ用 */
+@media screen and (max-width:768px) {
+
+  body {
+    display: block;
+}
+
+  header {
+    display: none;
+  }
+
+  main {
+    width: 100%;
+    background-color: rgb(249, 245, 245);
+    margin: auto;
+}
+}
