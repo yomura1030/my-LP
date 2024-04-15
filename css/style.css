@@ -31,6 +31,10 @@ section {
   margin-bottom: 6rem;
 }
 
+nav {
+  height: 8rem;
+}
+
 .user-section {
   margin-bottom: 0;
 }
@@ -381,8 +385,10 @@ section {
 }
 
 .icon-link-container {
-  max-width: max-content;
-    margin: auto;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 100%;
   background-color: rgb(217, 217, 217);
 }
 
