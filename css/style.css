@@ -380,6 +380,12 @@ section {
   letter-spacing: 0.3rem;
 }
 
+.icon-link-container {
+  max-width: max-content;
+    margin: auto;
+  background-color: rgb(217, 217, 217);
+}
+
 /* メディアクエリ用 */
 @media screen and (max-width:768px) {
 
