@@ -172,6 +172,10 @@ section {
     margin: 0;
 }
 
+.future-experience-text-list {
+  padding: 0;
+}
+
 .future-experience-container {
   display: flex;
 }
@@ -235,13 +239,17 @@ section {
   justify-content: space-between;
 }
 
-.interest-lang-text {
-  font-size: 1.2rem;
-  font-weight: bold;
+.interest-content {
+  padding: 0;
 }
 
 .interest-lang-container {
   list-style: none;
+}
+
+.interest-lang-text {
+  font-size: 1.2rem;
+  font-weight: bold;
 }
 
 .my-product-main-container {
