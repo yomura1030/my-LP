@@ -954,8 +954,8 @@ h1.engineer-title {
 
 .future-experience-title {
   padding-right: 1.5rem;
-  padding-left: 1.5rem;
-    font-size: 1.5rem;
+  padding-left: 1rem;
+    font-size: 1.3rem;
     font-weight: bold;
     letter-spacing: 0rem;
 }
@@ -965,7 +965,16 @@ h1.engineer-title {
 }
 
 .future-experience-date {
-  margin-right: 2rem;
+  font-size: 1rem;
+  margin-right: 1.5rem;
+}
+
+.experience-text {
+  font-size: 1rem;
+}
+
+.future-text {
+  font-size: 1rem;
 }
 
 .future-experience-graph-icon-container {
@@ -986,17 +995,17 @@ h1.engineer-title {
 .thinking-title {
   padding-right: 1.5rem;
   padding-left: 1.5rem;
-    font-size: 1.5rem;
+    font-size: 1.3rem;
     font-weight: bold;
     letter-spacing: 0rem;
 }
 
 .thinking-main-title {
-  font-size: 1.7rem;
+  font-size: 1.4rem;
 }
 
 .thinking-main-text {
-  font-size: 1rem;
+  font-size: 0.8rem;
 }
 
 .decision-content {
