@@ -479,3 +479,27 @@ nav {
   background-color: rgb(217, 217, 217);  
 }
 }
+
+/* メディアクエリ ipone */
+
+@media screen and (max-width:425px) {
+  
+  body {
+    display: block;
+}
+
+  header {
+    display: none;
+  }
+
+  main {
+    width: 100%;
+    background-color: rgb(249, 245, 245);
+    margin: auto;
+}
+
+h1.title {
+  font-size: 3rem;
+  letter-spacing: 0.3rem;
+}
+}
