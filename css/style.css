@@ -830,7 +830,7 @@ h1.engineer-title {
 .interest-title {
   padding-right: 1.5rem;
   padding-left: 1.5rem;
-    font-size: 1.5rem;
+    font-size: 1.3rem;
     font-weight: bold;
     letter-spacing: 0rem;
 }
@@ -838,7 +838,7 @@ h1.engineer-title {
 .interest-lang-framework-title {
   display: flex;
   justify-content: center;
-  font-size: 1rem;
+  font-size: 0.9rem;
   margin: 1rem 0 0.5rem 0;
 }
 
@@ -849,7 +849,7 @@ h1.engineer-title {
 .interest-tool-title {
   display: flex;
   justify-content: center;
-  font-size: 1rem;
+  font-size: 0.9rem;
   margin: 2rem 0 0.5rem 0;
 }
 
@@ -870,7 +870,7 @@ h1.engineer-title {
   align-items: center;
   margin: 0;
   margin-left: 0.2rem;
-  font-size: 0.9rem;
+  font-size: 0.7rem;
   color: rgb(99, 157, 243);
 }
 
