@@ -35,6 +35,7 @@ nav {
   height: 8rem;
 }
 
+
 .user-section {
   margin-bottom: 0;
 }
@@ -363,9 +364,18 @@ nav {
   align-items: end;
 }
 
+.lg-hidden-arrow-icon-container {
+  display: none;
+}
+
+
 .click-container {
   display: flex;
   align-items: center;
+}
+
+.lg-hidden-movie-text {
+  display: none;
 }
 
 .click-text {
@@ -478,4 +488,279 @@ nav {
   width: 100%;
   background-color: rgb(217, 217, 217);  
 }
+}
+
+/* メディアクエリ ipone */
+
+@media screen and (max-width:425px) {
+  
+  body {
+    display: block;
+}
+
+  header {
+    display: none;
+  }
+
+  main {
+    width: 100%;
+    background-color: rgb(249, 245, 245);
+    margin: auto;
+}
+
+h1.engineer-title {
+  font-size: 3rem;
+  letter-spacing: 0.3rem;
+}
+
+/* Fav & Character */
+
+.fav-character-section {
+  max-width: max-content;
+  margin: 4rem auto;
+}
+
+.fav-character-title-container {
+  justify-content: center;
+}
+
+.fav-character-title {
+  padding-right: 1.5rem;
+  padding-left: 1.5rem;
+    font-size: 1.5rem;
+    font-weight: bold;
+    letter-spacing: 0rem;
+}
+
+.fav-character-container {
+  display: flex;
+  justify-content: center;
+}
+
+.fav-icon-container {
+  padding-right: 0.9rem;
+}
+
+.character-container {
+  justify-content: center;
+  align-items: end;
+}
+
+.character-title-container {
+  display: none;
+}
+
+.character-arrow-icon-container {
+  display: none;
+}
+
+/* Interest */
+
+.interest-section {
+  max-width: max-content;
+  margin: 4rem  auto;
+}
+
+.interest-title-container {
+  justify-content: center;
+}
+
+.interest-title {
+  padding-right: 1.5rem;
+  padding-left: 1.5rem;
+    font-size: 1.5rem;
+    font-weight: bold;
+    letter-spacing: 0rem;
+}
+
+.interest-lang-framework-title {
+  display: flex;
+  justify-content: center;
+  font-size: 1rem;
+  margin: 1rem 0 0.5rem 0;
+}
+
+.interest-link-container-top {
+  justify-content: center;
+}
+
+.interest-tool-title {
+  display: flex;
+  justify-content: center;
+  font-size: 1rem;
+  margin: 2rem 0 0.5rem 0;
+}
+
+.interest-link {
+  display: flex;
+	margin: 0 0.4em 0 0;
+	padding: .4em;
+	line-height: 1;
+	text-decoration: none;
+	background-color: rgb(249, 245, 245);
+	border: 1px solid rgb(99, 157, 243);
+	border-radius: 2em;
+}
+
+.interest-link-text {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0;
+  margin-left: 0.2rem;
+  font-size: 0.9rem;
+  color: rgb(99, 157, 243);
+}
+
+/* My Product */
+
+.my-product-section{
+  max-width: max-content;
+  margin: 4rem  auto;
+}
+
+.my-product-title-container {
+  justify-content: center;
+}
+
+.my-product-title {
+  padding-right: 1.5rem;
+  padding-left: 1.5rem;
+    font-size: 1.5rem;
+    font-weight: bold;
+    letter-spacing: 0rem;
+}
+
+.my-product-container {
+  display: block;
+}
+
+.my-product-main-content {
+  display: block;
+}
+
+.sm-hidden {
+  display: none;
+}
+
+.my-product-text-title {
+  margin-bottom: 0;
+}
+
+.my-product-text {
+  display: none;
+}
+
+.my-product-details-container {
+  padding: 0;
+}
+
+.my-product-app-name-text {
+  margin: 0;
+  font-size: 1.5rem;
+}
+
+.my-product-movie-container {
+  justify-content: start;
+}
+
+.lg-hidden-arrow-icon-container {
+  display: flex;
+  justify-content: center;
+  padding-right: 1rem;
+}
+
+.lg-hidden-movie-text {
+  display: flex;
+  justify-content: center;
+  font-size: 1.2rem;
+  font-weight: bold;
+  padding-right: 2rem;
+}
+
+/* Future & Experience */
+
+.future-experience-section {
+  max-width: max-content;
+  margin: 4rem auto;
+}
+
+.future-experience-title-container {
+  justify-content: center;
+}
+
+.future-experience-title {
+  padding-right: 1.5rem;
+  padding-left: 1.5rem;
+    font-size: 1.5rem;
+    font-weight: bold;
+    letter-spacing: 0rem;
+}
+
+.future-experience-container {
+  justify-content: center;
+}
+
+.future-experience-date {
+  margin-right: 2rem;
+}
+
+.future-experience-graph-icon-container {
+  display: none;
+}
+
+/* Thinking */
+
+.thinking-content {
+  max-width: max-content;
+  margin: 4rem  auto;
+}
+
+.thinking-title-container {
+  justify-content: center;
+}
+
+.thinking-title {
+  padding-right: 1.5rem;
+  padding-left: 1.5rem;
+    font-size: 1.5rem;
+    font-weight: bold;
+    letter-spacing: 0rem;
+}
+
+.thinking-main-title {
+  font-size: 1.7rem;
+}
+
+.thinking-main-text {
+  font-size: 1rem;
+}
+
+.decision-content {
+  max-width: max-content;
+  margin: 4rem auto;
+}
+
+.decision-title-container {
+  justify-content: center;
+}
+
+.decision-title {
+  padding-right: 1.5rem;
+  padding-left: 1.5rem;
+    font-size: 1.5rem;
+    font-weight: bold;
+    letter-spacing: 0rem;
+}
+
+.decision-main-title {
+  font-size: 1.7rem;
+}
+
+.decision-main-text {
+  font-size: 1rem;
+}
+
+
+
 }
