@@ -517,7 +517,7 @@ h1.engineer-title {
 
 .fav-character-section {
   max-width: max-content;
-  margin: auto;
+  margin: 4rem auto;
 }
 
 .fav-character-title-container {
@@ -558,7 +558,7 @@ h1.engineer-title {
 
 .interest-section {
   max-width: max-content;
-  margin: auto;
+  margin: 4rem  auto;
 }
 
 .interest-title-container {
@@ -616,7 +616,7 @@ h1.engineer-title {
 
 .my-product-section{
   max-width: max-content;
-  margin: auto;
+  margin: 4rem  auto;
 }
 
 .my-product-title-container {
@@ -682,7 +682,7 @@ h1.engineer-title {
 
 .future-experience-section {
   max-width: max-content;
-  margin: auto;
+  margin: 4rem auto;
 }
 
 .future-experience-title-container {
@@ -713,7 +713,7 @@ h1.engineer-title {
 
 .thinking-content {
   max-width: max-content;
-  margin: auto;
+  margin: 4rem  auto;
 }
 
 .thinking-title-container {
@@ -738,7 +738,7 @@ h1.engineer-title {
 
 .decision-content {
   max-width: max-content;
-  margin: auto;
+  margin: 4rem auto;
 }
 
 .decision-title-container {
@@ -759,8 +759,8 @@ h1.engineer-title {
 
 .decision-main-text {
   font-size: 1rem;
-  letter-spacing: 0.3rem;
-
 }
+
+
 
 }
