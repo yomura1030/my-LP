@@ -180,14 +180,14 @@
           <div class="my-product-main-content">
             <div class="my-product-text-title-container">
               <div class="my-product-text-container">
-                <div class="arrow-icon-container">
+                <div class="arrow-icon-container sm-hidden">
                   <img src="/img/arrow.svg" alt="矢印のアイコン" class="arrow-icon">
                 </div>
                 <p class="my-product-text-title">
                   アプリ名
                 </p>
               </div>
-              <div class="my-product-text-container">
+              <div class="my-product-text-container sm-hidden">
                 <div class="arrow-icon-container">
                   <img src="/img/arrow.svg" alt="矢印のアイコン" class="arrow-icon">
                 </div>
@@ -195,7 +195,7 @@
                   概要
                 </p>
               </div>
-              <div class="my-product-text-container">
+              <div class="my-product-text-container sm-hidden">
                 <div class="arrow-icon-container">
                   <img src="/img/arrow.svg" alt="矢印のアイコン" class="arrow-icon">
                 </div>
@@ -217,17 +217,27 @@
             </div>
           </div>
           <div class="my-product-movie-container">
+            <div class="lg-hidden-arrow-icon-container">
+              <img src="/img/arrow.svg" alt="矢印のアイコン" class="arrow-icon">
+            </div>
             <div class="click-container">
-              <p class="click-text">
+              <p class="lg-hidden-movie-text">
+                Movie
+              </p>
+              <p class="click-text sm-hidden">
                 Click
               </p>
-              <div class="click-icon-container">
+              <div class="click-icon-container sm-hidden">
                 <img src="/img/click-icon.svg" alt="クリックアイコン" class="click-icon">
               </div>
             </div>
             <nav class="game-app-icon-container">
               <a href="https://youtu.be/4e83l8_PLBg" class="game-app-icon-link">
-                <img src="/img/game-app-icon.svg" alt="アプリの動画" class="game-app-icon">
+                <picture>
+                  <source srcset="/img/game-app-icon-mini.svg" alt="アプリの動画" media="(max-width: 425px)"
+                    class="game-app-icon">
+                  <img src="/img/game-app-icon.svg" alt="アプリの動画" class="game-app-icon">
+                </picture>
               </a>
             </nav>
           </div>
