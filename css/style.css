@@ -678,4 +678,35 @@ h1.engineer-title {
   padding-right: 2rem;
 }
 
+/* Future & Experience */
+
+.future-experience-section {
+  max-width: max-content;
+  margin: auto;
+}
+
+.future-experience-title-container {
+  justify-content: center;
+}
+
+.future-experience-title {
+  padding-right: 1.5rem;
+  padding-left: 1.5rem;
+    font-size: 1.5rem;
+    font-weight: bold;
+    letter-spacing: 0rem;
+}
+
+.future-experience-container {
+  justify-content: center;
+}
+
+.future-experience-date {
+  margin-right: 2rem;
+}
+
+.future-experience-graph-icon-container {
+  display: none;
+}
+
 }
