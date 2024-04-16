@@ -513,6 +513,10 @@ h1.engineer-title {
   letter-spacing: 0.3rem;
 }
 
+nav {
+    height: 4rem;
+}
+
 /* Fav & Character */
 
 .fav-character-section {

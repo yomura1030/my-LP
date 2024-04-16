@@ -81,3 +81,9 @@ nav {
     width: 100%;
     background-color: rgb(217, 217, 217);
 }
+
+@media screen and (max-width: 425px) {
+    nav {
+    height: 4rem;
+}
+}
