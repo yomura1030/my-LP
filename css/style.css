@@ -439,7 +439,7 @@ nav {
   display: none;
 }
 
-/* メディアクエリ用 */
+/* メディアクエリ用  ipad*/
 @media screen and (max-width:768px) {
 
   body {
@@ -460,13 +460,22 @@ nav {
   height: 6rem;
 }
 
-  .icon-link-container {
-    position: sticky;
-    bottom: 0;
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    width: 100%;
-    background-color: rgb(217, 217, 217);  
-  }
+.my-product-movie-container {
+  display: flex;
+  align-items: center;
+}
+
+.future-experience-container {
+  justify-content: space-between;
+}
+
+.icon-link-container {
+  position: sticky;
+  bottom: 0;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 100%;
+  background-color: rgb(217, 217, 217);  
+}
 }
