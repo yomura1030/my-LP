@@ -3,8 +3,8 @@
 body {
     display: block;
     flex-direction: column;
-    /* justify-content: end; */
     height: 100vh;
+    font-family: sans-serif;
 }
 
 nav {
