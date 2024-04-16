@@ -498,8 +498,50 @@ nav {
     margin: auto;
 }
 
-h1.title {
+h1.engineer-title {
   font-size: 3rem;
   letter-spacing: 0.3rem;
 }
+
+/* Fav & Character */
+
+.fav-character-section {
+  max-width: max-content;
+  margin: auto;
+}
+
+.fav-character-title-container {
+  justify-content: center;
+}
+
+.fav-character-title {
+  padding-right: 1.5rem;
+  padding-left: 1.5rem;
+    font-size: 1.5rem;
+    font-weight: bold;
+    letter-spacing: 0rem;
+}
+
+.fav-character-container {
+  display: flex;
+  justify-content: center;
+}
+
+.fav-icon-container {
+  padding-right: 0.9rem;
+}
+
+.character-container {
+  justify-content: center;
+  align-items: end;
+}
+
+.character-title-container {
+  display: none;
+}
+
+.character-arrow-icon-container {
+  display: none;
+}
+
 }
