@@ -888,7 +888,7 @@ h1.engineer-title {
 .my-product-title {
   padding-right: 1.5rem;
   padding-left: 1.5rem;
-    font-size: 1.5rem;
+    font-size: 1.3rem;
     font-weight: bold;
     letter-spacing: 0rem;
 }
@@ -906,6 +906,7 @@ h1.engineer-title {
 }
 
 .my-product-text-title {
+  font-size: 1rem;
   margin-bottom: 0;
 }
 
@@ -919,7 +920,7 @@ h1.engineer-title {
 
 .my-product-app-name-text {
   margin: 0;
-  font-size: 1.5rem;
+  font-size: 1.3rem;
 }
 
 .my-product-movie-container {
@@ -935,7 +936,7 @@ h1.engineer-title {
 .lg-hidden-movie-text {
   display: flex;
   justify-content: center;
-  font-size: 1.2rem;
+  font-size: 1rem;
   font-weight: bold;
   padding-right: 2rem;
 }
