@@ -736,4 +736,31 @@ h1.engineer-title {
   font-size: 1rem;
 }
 
+.decision-content {
+  max-width: max-content;
+  margin: auto;
+}
+
+.decision-title-container {
+  justify-content: center;
+}
+
+.decision-title {
+  padding-right: 1.5rem;
+  padding-left: 1.5rem;
+    font-size: 1.5rem;
+    font-weight: bold;
+    letter-spacing: 0rem;
+}
+
+.decision-main-title {
+  font-size: 1.7rem;
+}
+
+.decision-main-text {
+  font-size: 1rem;
+  letter-spacing: 0.3rem;
+
+}
+
 }
