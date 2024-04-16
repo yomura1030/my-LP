@@ -544,4 +544,63 @@ h1.engineer-title {
   display: none;
 }
 
+/* Interest */
+
+.interest-section {
+  max-width: max-content;
+  margin: auto;
+}
+
+.interest-title-container {
+  justify-content: center;
+}
+
+.interest-title {
+  padding-right: 1.5rem;
+  padding-left: 1.5rem;
+    font-size: 1.5rem;
+    font-weight: bold;
+    letter-spacing: 0rem;
+}
+
+.interest-lang-framework-title {
+  display: flex;
+  justify-content: center;
+  font-size: 1rem;
+  margin: 1rem 0 0.5rem 0;
+}
+
+.interest-link-container-top {
+  justify-content: center;
+}
+
+.interest-tool-title {
+  display: flex;
+  justify-content: center;
+  font-size: 1rem;
+  margin: 2rem 0 0.5rem 0;
+}
+
+.interest-link {
+  display: flex;
+	margin: 0 0.4em 0 0;
+	padding: .4em;
+	line-height: 1;
+	text-decoration: none;
+	background-color: rgb(249, 245, 245);
+	border: 1px solid rgb(99, 157, 243);
+	border-radius: 2em;
+}
+
+.interest-link-text {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0;
+  margin-left: 0.2rem;
+  font-size: 0.9rem;
+  color: rgb(99, 157, 243);
+}
+
+
 }
