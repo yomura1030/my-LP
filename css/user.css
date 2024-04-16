@@ -3,8 +3,8 @@
 body {
     display: block;
     flex-direction: column;
-    justify-content: end;
-    height: 906px;
+    /* justify-content: end; */
+    height: 100vh;
 }
 
 nav {
@@ -13,6 +13,7 @@ nav {
 
 .user-section {
     padding: 11rem 0;
+    height: 100%;
     display: flex;
     flex-direction: column;
     align-items: center;
