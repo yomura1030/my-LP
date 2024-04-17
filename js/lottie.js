@@ -1,21 +1,31 @@
+// ディスコードアイコン
+
 const discord_icon_container = document.getElementById('discord-icon-container');
+
+const discord_anime = lottie.loadAnimation({
+    container: discord_icon_container,
+    render: 'svg',
+    loop: false,
+    autoplay: false,
+    path: '/json/discord.json'
+},
+)    
+
+discord_icon_container.addEventListener('mouseover', () => {
+    discord_anime.play();
+});
 
 const instagram_icon_container = document.getElementById('instagram-icon-container');
 
-lottie.loadAnimation({
-    container: discord_icon_container,
-    render: 'svg',
-    loop: true,
-    autoplay: true,
-    path: '/json/discord.json'
-},
-)
-
-lottie.loadAnimation({
+const instagram_anime = lottie.loadAnimation({
     container: instagram_icon_container,
     render: 'svg',
-    loop: true,
-    autoplay: true,
+    loop: false,
+    autoplay: false,
     path: '/json/instagram-icon.json'
 })
-console.log("aaaa");
+
+instagram_icon_container.addEventListener('mouseover', () => {
+    console.log('aaa');
+    instagram_anime.play();
+});
