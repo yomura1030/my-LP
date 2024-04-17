@@ -4,8 +4,10 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="css/style.css">
   <link rel="stylesheet" href="css/reset.css">
+  <link rel="stylesheet" href="css/style.css">
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+  <script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script>
   <title>Yuma Omura</title>
 </head>
 
@@ -24,11 +26,9 @@
         </p>
       </div>
       <div class="sns-icon-container">
-        <div class="sns-icon-discord-container">
-          <img src="img/discord.svg" alt="discordのアイコン" class="sns-icon-discord">
+        <div class="sns-icon-discord-container" id="discord-icon-container">
         </div>
-        <div class="user-sne-icon-instagram-container">
-          <img src="img/instagram.svg" alt="instagramのアイコン" class="sns-icon-instagram">
+        <div class="sns-icon-instagram-container" id="instagram-icon-container">
         </div>
       </div>
       <div class="user-sns-container">
@@ -92,14 +92,15 @@
           </div>
           <div class="character-container">
             <div class="character-title-container">
-              <p class="character-mbti-text">
+              <p class="character-mbti-text" id="infp-trriger">
                 MBTI
               </p>
             </div>
             <div class="character-arrow-icon-container">
               <img src="img/arrow.svg" alt="矢印のアイコン" class="arrow-icon">
             </div>
-            <div class="character-infp-container">
+            <div class="character-infp-container" data-aos="zoom-in" data-aos-duration="1000"
+              data-aos-anchor="#infp-trriger">
               <p class="infp-title">
                 仲介者
               </p>
@@ -111,7 +112,7 @@
       <section class="interest-section">
         <div class="interest-title-container">
           <img src="img/coding.svg" alt="興味のある分野のタイトルアイコン" class="coding-icon">
-          <p class="interest-title">Interest</p>
+          <span class="interest-title">Interest</span>
         </div>
         <div class="interest-container">
           <p class="interest-lang-framework-title">
@@ -121,19 +122,19 @@
             <div class="interest-link-container">
               <a href="https://ja.react.dev/" class="interest-link">
                 <img src="img/react-logo.svg" alt="Reactのアイコン" class="interest-react-icon">
-                <p class="interest-link-text">React</p>
+                React
               </a>
             </div>
             <div class="interest-link-container">
               <a href="https://laravel.com/docs/11.x/readme" class="interest-link">
                 <img src="img/laravel-logo.svg" alt="Laravelのアイコン" class="interest-laravel-icon">
-                <p class="interest-link-text">Laravel</p>
+                Laravel
               </a>
             </div>
             <div class="interest-link-container">
               <a href="https://flutter.dev/" class="interest-link">
                 <img src="img/logo-flutter.svg" alt="Flutterのアイコン" class="interest-flutter-icon">
-                <p class="interest-link-text">Flutter</p>
+                Flutter
               </a>
             </div>
           </div>
@@ -144,26 +145,26 @@
             <div class="interest-link-container">
               <a href="https://www.notion.so/ja-jp" class="interest-link">
                 <img src="img/notion-icon.svg" alt="Notionのアイコン" class="imterest-notion-icon">
-                <p class="interest-link-text">Notion</p>
+                Notion
               </a>
             </div>
             <div class="interest-link-container">
               <a href="https://www.atlassian.com/ja/software/jira?&aceid=&adposition=&adgroup=143040581965&campaign=19324540442&creative=642069041487&device=c&keyword=jira&matchtype=p&network=g&placement=&ds_kids=p74609436347&ds_e=GOOGLE&ds_eid=700000001558501&ds_e1=GOOGLE&gad_source=1&gclid=CjwKCAjwoPOwBhAeEiwAJuXRh8HGEjt6xX3JHKdqdmsL6gZCxzv7YGGAoL8XS82elxXf2g80banpMhoCrhQQAvD_BwE&gclsrc=aw.ds"
                 class="interest-link">
                 <img src="img/jira-icon.svg" alt="Jiraのアイコン" class="interest-jira-icon">
-                <p class="interest-link-text">Jira</p>
+                Jira
               </a>
             </div>
             <div class="interest-link-container">
               <a href="https://miro.com/ja/" class="interest-link">
                 <img src="img/miro-icon.svg" alt="Miroのアイコン" class="interest-miro-icon">
-                <p class="interest-link-text">Miro</p>
+                Miro
               </a>
             </div>
             <div class="interest-link-container">
               <a href="https://www.figma.com/ja/design/" class="interest-link">
                 <img src="img/figma-icon.svg" alt="Figmaのアイコン" class="interest-figma-icon">
-                <p class="interest-link-text">Figma</p>
+                Figma
               </a>
             </div>
           </div>
@@ -224,7 +225,7 @@
               <p class="lg-hidden-movie-text">
                 Movie
               </p>
-              <p class="click-text sm-hidden">
+              <p class="click-text sm-hidden" id="click-text">
                 Click
               </p>
               <div class="click-icon-container sm-hidden">
@@ -236,7 +237,8 @@
                 <picture>
                   <source srcset="img/game-app-icon-mini.svg" alt="アプリの動画" media="(max-width: 425px)"
                     class="game-app-icon">
-                  <img src="img/game-app-icon.svg" alt="アプリの動画" class="game-app-icon">
+                  <img src="img/game-app-icon.svg" alt="アプリの動画" class="game-app-icon" data-aos="fade-left"
+                    data-aos-anchor="#click-text">
                 </picture>
               </a>
             </nav>
@@ -248,7 +250,7 @@
           <div class="future-experience-icon-container">
             <img src="img/future-icon.svg" alt="経歴とこれからについてのタイトルアイコン" class="future-experience-icon">
           </div>
-          <p class="future-experience-title">
+          <p class="future-experience-title" id="future-experience-title">
             Future & Experience
           </p>
         </div>
@@ -276,14 +278,15 @@
             </li>
           </ul>
           <div class="future-experience-graph-icon-container">
-            <img src="img/graph-icon.svg" alt="グラフの画像" class="future-experience-graph-icon">
+            <img src="img/graph-icon.svg" alt="グラフの画像" class="future-experience-graph-icon" data-aos="flip-left"
+              data-aos-anchor="#thinking-title">
           </div>
         </div>
       </section>
       <section class="thinking-content">
         <div class="thinking-title-container">
           <img src="img/thinking-icon.svg" alt="自らの考えについてのタイトルアイコン" class="thinking-icon">
-          <p class="thinking-title">Thinking</p>
+          <p class="thinking-title" id="thinking-title">Thinking</p>
         </div>
         <div class="thinking-container">
           <p class="thinking-main-title">
@@ -321,12 +324,13 @@
               <p class="decision-main-text">
                 皆の土台となる
               </p>
-              <p class="decision-main-text">
+              <p class="decision-main-text" id="bullet-trriger">
                 クライアント・社員から信頼の厚い
               </p>
             </div>
             <div class="bullet-icon-container sm-hidden">
-              <img src="img/bullet-icon.svg" alt="弾丸のアイコン" class="bullet-icon">
+              <img src="img/bullet-icon.svg" alt="弾丸のアイコン" class="bullet-icon" data-aos="zoom-out-right"
+                data-aos-anchor="#bullet-trriger">
             </div>
           </div>
         </div>
@@ -345,6 +349,10 @@
       </div>
     </nav>
   </main>
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/lottie-web/5.9.6/lottie.min.js"></script>
+  <script>AOS.init();</script>
+  <script src="/js/lottie.js"></script>
 </body>
 
 </html>
