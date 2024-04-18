@@ -11,7 +11,7 @@ const discord_anime = lottie.loadAnimation({
 },
 )    
 
-discord_icon_container.addEventListener('mouseover', () => {
+discord_icon_container.addEventListener('mouseenter', () => {
     discord_anime.play();
     setTimeout(()=>discord_anime.stop(),1000);
 });
@@ -26,7 +26,7 @@ const instagram_anime = lottie.loadAnimation({
     path: '/json/instagram-icon.json'
 })
 
-instagram_icon_container.addEventListener('mouseover', () => {
+instagram_icon_container.addEventListener('mouseenter', () => {
     instagram_anime.play();
     setTimeout(()=>instagram_anime.stop(),1000);
 });
