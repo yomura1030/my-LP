@@ -774,6 +774,8 @@ body {
 }
 
   h1.engineer-title {
+  margin: 0 0;
+  padding-top: 2rem;
   font-size: 2rem;
   letter-spacing: 0.3rem;
 }
