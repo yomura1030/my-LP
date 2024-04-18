@@ -492,7 +492,7 @@ nav {
 
 /* メディアクエリ ipone */
 
-@media screen and (max-width:425px) {
+@media screen and (max-width:530px) {
   
   body {
     display: block;
@@ -769,6 +769,10 @@ nav {
 
 @media screen and (max-width:320px) {
 
+body {
+  max-width: 320px;
+}
+
   h1.engineer-title {
   font-size: 2rem;
   letter-spacing: 0.3rem;
@@ -848,6 +852,12 @@ nav {
 
 .interest-link-container-top {
   justify-content: center;
+}
+
+.interest-link-container-bottom {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
 }
 
 .interest-tool-title {
