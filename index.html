@@ -13,46 +13,48 @@
 
 <body>
   <header>
-    <section class="user-section">
-      <div class="user-container">
-        <div class="user-img-container">
-          <img src="img/my-face.svg" alt="ユーザーの顔写真" class="user-img">
+    <section class="user-info">
+      <div class="user-info__container">
+        <div class="user-info__content">
+          <img src="img/my-face.svg" alt="ユーザーの顔写真" class="user-info__img">
         </div>
-        <p class="user-name-text-top">
+        <p class="user-info__text--top">
           YUMA
         </p>
-        <p class="user-name-text-bottom">
+        <p class="user-info__text--bottom">
           OMURA
         </p>
       </div>
-      <div class="sns-icon-container">
-        <div class="sns-icon-discord-container" id="discord-icon-container">
-        </div>
-        <div class="sns-icon-instagram-container" id="instagram-icon-container">
-        </div>
-      </div>
-      <div class="user-sns-container">
-        <div class="user-sns-email-container">
-          <div class="user-sns-email-icon-container">
-            <img src="img/mail.svg" alt="メールアドレスのアイコン" class="user-sns-email-icon">
+      <ul class="user-info-sns-icon__list">
+        <li class="user-info-sns-icon__item--discord" id="sns-icon__item--discord">
+          <!-- discordのアイコン -->
+        </li>
+        <li class="user-info-sns-icon__item--instagram" id="sns-icon__item--instagram">
+          <!-- インスタグラムのアイコン -->
+        </li>
+      </ul>
+      <div class="user-info-sns-detail__container">
+        <div class="user-info-sns-detail__container--email">
+          <div class="user-sns-icon__container--email">
+            <img src="img/mail.svg" alt="メールアドレスのアイコン" class="user-sns-icon--email">
           </div>
-          <p class="user-sns-email-address">
+          <p class="user-info-sns-detail__text--email">
             yomura@bltinc.co.jp
           </p>
         </div>
-        <div class="user-sns-discord-container">
-          <div class="user-sns-discord-icon-container">
-            <img src="img/discord-mini.svg" alt="discordのアイコン" class="user-sns-discord-icon">
+        <div class="user-info-sns-detail__container--discord">
+          <div class="user-sns-icon__container--discord">
+            <img src="img/discord-mini.svg" alt="discordのアイコン" class="user-sns-icon--discord">
           </div>
-          <p class="user-sns-discord-address">
+          <p class="user-info-sns-detail__text--discord">
             kookie4369
           </p>
         </div>
-        <div class="user-sns-instagram-container">
-          <div class="user-sns-instagram-icon-container">
-            <img src="img/instagram-mini.svg" alt="instagramのアイコン" class="user-sns-instagram-icon">
+        <div class="user-info-sns-detail__container--instagram">
+          <div class="user-sns-icon__container--instagram">
+            <img src="img/instagram-mini.svg" alt="instagramのアイコン" class="user-sns-icon--instagram">
           </div>
-          <p class="user-sns-instagram-address">
+          <p class="user-info-sns-detail__text--instagram">
             yuma1030y
           </p>
         </div>
@@ -60,180 +62,180 @@
     </section>
   </header>
   <main>
-    <div class="main-content">
-      <h1 class="engineer-title">
+    <div class="main__content">
+      <h1 class="main__content-title">
         ENGINEER
       </h1>
-      <section class="fav-character-section">
-        <div class="fav-character-title-container">
-          <img src="img/fav-character.svg" alt="好きなこと、性格のタイトルアイコン" class="fav-character-icon">
-          <h2 class="fav-character-title">Fav. & Character</h2>
+      <section class="fav-character">
+        <div class="fav-character__title-container">
+          <img src="img/fav-character.svg" alt="好きなこと、性格のタイトルアイコン" class="fav-character__title-icon">
+          <h2 class="fav-character__title">Fav. & Character</h2>
         </div>
-        <div class="fav-character-container">
-          <div class="fav-container">
-            <div class="fav-text-container">
-              <div class="fav-icon-container">
-                <img src="img/game-icon.svg" alt="ゲームのアイコン" class="game-icon">
+        <div class="fav-character__content">
+          <div class="fav__container">
+            <div class="fav__text-container">
+              <div class="fav__icon-container">
+                <img src="img/game-icon.svg" alt="ゲームのアイコン" class="fav-game-icon">
               </div>
-              <p class="fav-text">ゲーム</p>
+              <p class="fav__text">ゲーム</p>
             </div>
-            <div class="fav-text-container">
-              <div class="fav-icon-container">
-                <img src="img/beer-icon.svg" alt="ビールのアイコン" class="beer-icon">
+            <div class="fav__text-container">
+              <div class="fav__icon-container">
+                <img src="img/beer-icon.svg" alt="ビールのアイコン" class="fav-beer-icon">
               </div>
-              <p class="fav-text">ビール</p>
+              <p class="fav__text">ビール</p>
             </div>
-            <div class="fav-text-container">
-              <div class="fav-icon-container">
-                <img src="img/food-icon.svg" alt="ご飯のアイコン" class="food-icon">
+            <div class="fav__text-container">
+              <div class="fav__icon-container">
+                <img src="img/food-icon.svg" alt="ご飯のアイコン" class="fav-food-icon">
               </div>
-              <p class="fav-text">ネギトロ丼</p>
+              <p class="fav__text">ネギトロ丼</p>
             </div>
           </div>
-          <div class="character-container">
-            <div class="character-title-container">
-              <p class="character-mbti-text" id="infp-trriger">
+          <div class="character__container">
+            <div class="character__title-container">
+              <p class="character__text--mbti" id="infp-trriger">
                 MBTI
               </p>
             </div>
-            <div class="character-arrow-icon-container">
+            <div class="character-icon__container--arrow">
               <img src="img/arrow.svg" alt="矢印のアイコン" class="arrow-icon">
             </div>
-            <div class="character-infp-container" data-aos="zoom-in" data-aos-duration="1000"
+            <div class="character__container--infp" data-aos="zoom-in" data-aos-duration="1000"
               data-aos-anchor="#infp-trriger">
-              <h2 class="infp-title">
+              <h2 class="character__title--infp">
                 仲介者
               </h2>
-              <img src="img/infp-img.svg" alt="INFPの画像" class="infp-img">
+              <img src="img/infp-img.svg" alt="INFPの画像" class="character__img--infp">
             </div>
           </div>
         </div>
       </section>
-      <section class="interest-section">
-        <div class="interest-title-container">
-          <img src="img/coding.svg" alt="興味のある分野のタイトルアイコン" class="coding-icon">
-          <h2 class="interest-title">Interest</h2>
+      <section class="interest">
+        <div class="interest__title-container">
+          <img src="img/coding.svg" alt="興味のある分野のタイトルアイコン" class="interest__title-icon">
+          <h2 class="interest__title">Interest</h2>
         </div>
-        <div class="interest-container">
-          <p class="interest-lang-framework-title">
+        <div class="interest__container">
+          <p class="interest__title--lang-framework">
             開発言語・フレームワーク
           </p>
-          <div class="interest-link-container-top">
-            <div class="interest-link-container">
-              <a href="https://ja.react.dev/" class="interest-link">
-                <img src="img/react-logo.svg" alt="Reactのアイコン" class="interest-react-icon">
+          <div class="interest__link-container--top">
+            <div class="interest__link-container">
+              <a href="https://ja.react.dev/" class="interest__link">
+                <img src="img/react-logo.svg" alt="Reactのアイコン" class="interest__icon--react">
                 React
               </a>
             </div>
-            <div class="interest-link-container">
-              <a href="https://laravel.com/docs/11.x/readme" class="interest-link">
-                <img src="img/laravel-logo.svg" alt="Laravelのアイコン" class="interest-laravel-icon">
+            <div class="interest__link-container">
+              <a href="https://laravel.com/docs/11.x/readme" class="interest__link">
+                <img src="img/laravel-logo.svg" alt="Laravelのアイコン" class="interest__icon--laravel">
                 Laravel
               </a>
             </div>
-            <div class="interest-link-container">
-              <a href="https://flutter.dev/" class="interest-link">
-                <img src="img/logo-flutter.svg" alt="Flutterのアイコン" class="interest-flutter-icon">
+            <div class="interest__link-container">
+              <a href="https://flutter.dev/" class="interest__link">
+                <img src="img/logo-flutter.svg" alt="Flutterのアイコン" class="interest__icon--flutter">
                 Flutter
               </a>
             </div>
           </div>
-          <p class="interest-tool-title">
+          <p class="interest__title--tool">
             管理・デザインツール
           </p>
-          <div class="interest-link-container-bottom">
-            <div class="interest-link-container">
-              <a href="https://www.notion.so/ja-jp" class="interest-link">
-                <img src="img/notion-icon.svg" alt="Notionのアイコン" class="imterest-notion-icon">
+          <div class="interest__link-container--bottom">
+            <div class="interest__link-container">
+              <a href="https://www.notion.so/ja-jp" class="interest__link">
+                <img src="img/notion-icon.svg" alt="Notionのアイコン" class="interest__icon--notion">
                 Notion
               </a>
             </div>
-            <div class="interest-link-container">
+            <div class="interest__link-container">
               <a href="https://www.atlassian.com/ja/software/jira?&aceid=&adposition=&adgroup=143040581965&campaign=19324540442&creative=642069041487&device=c&keyword=jira&matchtype=p&network=g&placement=&ds_kids=p74609436347&ds_e=GOOGLE&ds_eid=700000001558501&ds_e1=GOOGLE&gad_source=1&gclid=CjwKCAjwoPOwBhAeEiwAJuXRh8HGEjt6xX3JHKdqdmsL6gZCxzv7YGGAoL8XS82elxXf2g80banpMhoCrhQQAvD_BwE&gclsrc=aw.ds"
-                class="interest-link">
-                <img src="img/jira-icon.svg" alt="Jiraのアイコン" class="interest-jira-icon">
+                class="interest__link">
+                <img src="img/jira-icon.svg" alt="Jiraのアイコン" class="interest__icon--jira">
                 Jira
               </a>
             </div>
-            <div class="interest-link-container">
-              <a href="https://miro.com/ja/" class="interest-link">
-                <img src="img/miro-icon.svg" alt="Miroのアイコン" class="interest-miro-icon">
+            <div class="interest__link-container">
+              <a href="https://miro.com/ja/" class="interest__link">
+                <img src="img/miro-icon.svg" alt="Miroのアイコン" class="interest__icon--mira">
                 Miro
               </a>
             </div>
-            <div class="interest-link-container">
-              <a href="https://www.figma.com/ja/design/" class="interest-link">
-                <img src="img/figma-icon.svg" alt="Figmaのアイコン" class="interest-figma-icon">
+            <div class="interest__link-container">
+              <a href="https://www.figma.com/ja/design/" class="interest__link">
+                <img src="img/figma-icon.svg" alt="Figmaのアイコン" class="interest__icon--figma">
                 Figma
               </a>
             </div>
           </div>
         </div>
       </section>
-      <section class="my-product-section">
-        <div class="my-product-title-container">
-          <img src="img/my-product-icon.svg" alt="自身のプロダクトのタイトルアイコン" class="my-product-icon">
-          <h2 class="my-product-title">
+      <section class="my-product">
+        <div class="my-product__title-container">
+          <img src="img/my-product-icon.svg" alt="自身のプロダクトのタイトルアイコン" class="my-product__title-icon">
+          <h2 class="my-product__title">
             My Product
           </h2>
         </div>
-        <div class="my-product-container">
-          <div class="my-product-main-content">
-            <div class="my-product-text-title-container">
-              <div class="my-product-text-container">
-                <div class="arrow-icon-container sm-hidden">
+        <div class="my-product__content">
+          <div class="my-product__container">
+            <div class="my-product__text-title-container">
+              <div class="my-product__text-container">
+                <div class="arrow-icon__container sm-hidden">
                   <img src="img/arrow.svg" alt="矢印のアイコン" class="arrow-icon">
                 </div>
-                <p class="my-product-text-title">
+                <p class="my-product__text-title">
                   アプリ名
                 </p>
               </div>
-              <div class="my-product-text-container sm-hidden">
-                <div class="arrow-icon-container">
+              <div class="my-product__text-container sm-hidden">
+                <div class="arrow-icon__container">
                   <img src="img/arrow.svg" alt="矢印のアイコン" class="arrow-icon">
                 </div>
-                <p class="my-product-text-title">
+                <p class="my-product__text-title">
                   概要
                 </p>
               </div>
-              <div class="my-product-text-container sm-hidden">
-                <div class="arrow-icon-container">
+              <div class="my-product__text-container sm-hidden">
+                <div class="arrow-icon__container">
                   <img src="img/arrow.svg" alt="矢印のアイコン" class="arrow-icon">
                 </div>
-                <p class="my-product-text-title">
+                <p class="my-product__text-title">
                   使用言語
                 </p>
               </div>
             </div>
-            <div class="my-product-details-container">
-              <p class="my-product-app-name-text">
+            <div class="my-product-details__text-container">
+              <p class="my-product-detail__text--app-name">
                 Frozen
               </p>
-              <p class="my-product-text">
+              <p class="my-product-detail__text">
                 RPG
               </p>
-              <p class="my-product-text">
+              <p class="my-product-detail__text">
                 C#
               </p>
             </div>
           </div>
-          <div class="my-product-movie-container">
-            <div class="lg-hidden-arrow-icon-container">
+          <div class="my-product-movie__container">
+            <div class="arrow-icon__container--lg-hidden">
               <img src="img/arrow.svg" alt="矢印のアイコン" class="arrow-icon">
             </div>
-            <div class="click-container">
-              <p class="lg-hidden-movie-text">
+            <div class="my-product-click-container">
+              <p class="my-product--movie__text--lg-hidden">
                 Movie
               </p>
-              <p class="click-text sm-hidden" id="click-text">
+              <p class="my-product-click__text sm-hidden" id="click-text">
                 Click
               </p>
-              <div class="click-icon-container sm-hidden">
-                <img src="img/click-icon.svg" alt="クリックアイコン" class="click-icon">
+              <div class="my-product-click-icon__container sm-hidden">
+                <img src="img/click-icon.svg" alt="クリックアイコン" class="my-product-click-icon">
               </div>
             </div>
-            <nav class="game-app-icon-container">
-              <a href="https://youtu.be/4e83l8_PLBg" class="game-app-icon-link">
+            <nav class="my-product-game-app-icon__container">
+              <a href="https://youtu.be/4e83l8_PLBg" class="my-product-game-app-icon__link">
                 <picture>
                   <source srcset="img/game-app-icon-mini.svg" alt="アプリの動画" media="(max-width: 425px)"
                     class="game-app-icon">
@@ -245,90 +247,86 @@
           </div>
         </div>
       </section>
-      <section class="future-experience-section">
-        <div class="future-experience-title-container">
-          <div class="future-experience-icon-container">
-            <img src="img/future-icon.svg" alt="経歴とこれからについてのタイトルアイコン" class="future-experience-icon">
+      <section class="future-experience">
+        <div class="future-experience__title-container">
+          <div class="future-experience__title-icon-container">
+            <img src="img/future-icon.svg" alt="経歴とこれからについてのタイトルアイコン" class="future-experience__title-icon">
           </div>
-          <h2 class="future-experience-title" id="future-experience-title">
+          <h2 class="future-experience__title" id="future-experience-title">
             Future & Experience
           </h2>
         </div>
-        <div class="future-experience-container">
-          <ul class="future-experience-text-list">
-            <li class="future-experience-text-container">
-              <p class="future-experience-date">2023.3</p>
-              <p class="experience-text">バレットグループ内定</p>
+        <div class="future-experience__container">
+          <ul class="future-experience__text-list">
+            <li class="future-experience__text-item">
+              <p class="future-experience__text--date">2023.3</p>
+              <p class="experience__text">バレットグループ内定</p>
             </li>
-            <li class="future-experience-text-container">
-              <p class="future-experience-date">2023.9</p>
-              <p class="experience-text">事業部インターン</p>
+            <li class="future-experience__text-item">
+              <p class="future-experience__text--date">2023.9</p>
+              <p class="experience__text">事業部インターン</p>
             </li>
-            <li class="future-experience-text-container">
-              <p class="future-experience-date">2024.4</p>
-              <p class="experience-text">バレットグループ入社</p>
+            <li class="future-experience__text-item">
+              <p class="future-experience__text--date">2024.4</p>
+              <p class="experience__text">バレットグループ入社</p>
             </li>
-            <li class="future-experience-text-container">
-              <p class="future-experience-date">2026.4</p>
-              <p class="future-text">Jr.PM へ</p>
+            <li class="future-experience__text-item">
+              <p class="future-experience__text--date">2026.4</p>
+              <p class="future__text">Jr.PM へ</p>
             </li>
-            <li class="future-experience-text-container">
-              <p class="future-experience-date">2027.4</p>
-              <p class="future-text">PM へ</p>
+            <li class="future-experience__text-item">
+              <p class="future-experience__text--date">2027.4</p>
+              <p class="future__text">PM へ</p>
             </li>
           </ul>
-          <div class="future-experience-graph-icon-container">
+          <div class="future-experience-graph-icon__container">
             <img src="img/graph-icon.svg" alt="グラフの画像" class="future-experience-graph-icon" data-aos="flip-left"
               data-aos-anchor="#thinking-title">
           </div>
         </div>
       </section>
-      <section class="thinking-content">
-        <div class="thinking-title-container">
-          <img src="img/thinking-icon.svg" alt="自らの考えについてのタイトルアイコン" class="thinking-icon">
-          <h2 class="thinking-title" id="thinking-title">Thinking</h2>
+      <section class="thinking">
+        <div class="thinking__title-container">
+          <img src="img/thinking-icon.svg" alt="自らの考えについてのタイトルアイコン" class="thinking__title-icon">
+          <h2 class="thinking__title" id="thinking-title">Thinking</h2>
         </div>
-        <div class="thinking-container">
-          <h2 class="thinking-main-title">
+        <div class="thinking__container">
+          <h2 class="thinking-title--main">
             過去の経験から
           </h2>
-          <div class="thinking-main-container">
-            <div class="thinking-main-text-container">
-              <p class="thinking-main-text">
-                部活のキャプテンを経験
-              </p>
-              <p class="thinking-main-text">
-                小さなことでも人の役に立ちたい
-              </p>
-              <p class="thinking-main-text">
+          <div class="thinking__text-container">
+            <div class="thinking__text-content">
+              <p class="thinking__text">
+                部活のキャプテンを経験<br>
+                小さなことでも人の役に立ちたい<br>
                 例えそれが嫌われ役であっても
               </p>
             </div>
           </div>
         </div>
       </section>
-      <section class="decision-content">
-        <div class="decision-title-container">
-          <img src="img/decision-icon.svg" alt="決意に関するタイトルアイコン" class="decision-icon">
-          <h2 class="decision-title">Decision</h2>
+      <section class="decision">
+        <div class="decision__title-container">
+          <img src="img/decision-icon.svg" alt="決意に関するタイトルアイコン" class="decision__title-icon">
+          <h2 class="decision__title">Decision</h2>
         </div>
-        <div class="decision-container">
-          <h2 class="decision-main-title">
+        <div class="decision__container">
+          <h2 class="decision__title--main">
             プロジェクトマネジャー
           </h2>
-          <div class="decision-main-container">
-            <div class="decision-main-text-container">
-              <p class="decision-main-text">
+          <div class="decision__text-container">
+            <div class="decision__text-content">
+              <p class="decision__text">
                 プロフェッショナルに
               </p>
-              <p class="decision-main-text">
+              <p class="decision__text">
                 皆の土台となる
               </p>
-              <p class="decision-main-text" id="bullet-trriger">
+              <p class="decision__text" id="bullet-trriger">
                 クライアント・社員から信頼の厚い
               </p>
             </div>
-            <div class="bullet-icon-container sm-hidden">
+            <div class="bullet-icon__container sm-hidden">
               <img src="img/bullet-icon.svg" alt="弾丸のアイコン" class="bullet-icon" data-aos="zoom-out-right"
                 data-aos-anchor="#bullet-trriger">
             </div>
@@ -336,15 +334,15 @@
         </div>
       </section>
     </div>
-    <nav class="icon-link-container">
-      <div class="home-icon-container">
-        <a href="index.html" class="">
-          <img src="img/home-icon.svg" alt="home画面に遷移するアイコン" class="">
+    <nav class="nav-icon__link-container">
+      <div class="home-icon__container">
+        <a href="index.html" class="home__link">
+          <img src="img/home-icon.svg" alt="home画面に遷移するアイコン" class="home__link-icon">
         </a>
       </div>
-      <div class="user-icon-container">
-        <a href="user.html" class="">
-          <img src="img/user-icon.svg" alt="user画面に遷移するアイコン" class="">
+      <div class="user-icon__container">
+        <a href="user.html" class="user__link">
+          <img src="img/user-icon.svg" alt="user画面に遷移するアイコン" class="user__link-icon">
         </a>
       </div>
     </nav>
