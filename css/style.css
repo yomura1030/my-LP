@@ -442,7 +442,7 @@ a.interest__link {
 }
 
 
-.icon-link-container {
+.nav-icon__link-container {
   display: none;
 }
 
@@ -481,7 +481,7 @@ h1.main__content-title {
   justify-content: space-between;
 }
 
-.icon-link-container {
+.nav-icon__link-container {
   position: sticky;
   bottom: 0;
   display: flex;
