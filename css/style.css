@@ -470,6 +470,11 @@ nav {
   height: 6rem;
 }
 
+h1.engineer-title {
+  margin: 0 0;
+  padding-top: 2rem;
+}
+
 .my-product-movie-container {
   display: flex;
   align-items: center;
@@ -509,6 +514,8 @@ nav {
 }
 
 h1.engineer-title {
+  margin: 0 0;
+  padding-top: 2rem; 
   font-size: 3rem;
   letter-spacing: 0.3rem;
 }
