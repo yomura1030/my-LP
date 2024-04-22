@@ -46,77 +46,69 @@ li {
 }
 
 
-.user-section {
+.user-info {
   margin-bottom: 0;
 }
 
-.user-container {
+.user-info-container {
     display: flex;
     flex-direction: column;
     align-items: center;
 }
 
-.user-name-text-top {
+.user-info__text--top {
     font-size: x-large;
     letter-spacing: 0.3rem;
     justify-content: end;
     margin-bottom: 0;
 }
 
-.user-name-text-bottom {
+.user-info__text--bottom {
     font-size: x-large;
     letter-spacing: 0.8rem;
     font-weight: bold;
     margin-top: 0rem;
 }
 
-.sns-icon-container {
+.user-info-sns-icon__list {
     display: flex;
     justify-content: center;
 }
 
-.sns-icon-discord {
-    padding: 0 3rem;
-}
-
-.sns-icon-instagram {
-    padding: 0 3rem;
-}
-
-.user-sns-container {
+.user-info-sns-detail__container {
   max-width: max-content;
   margin: auto;
   margin-top: 2rem;
 }
 
-.user-sns-email-container {
+.user-info-sns-detail__container--email {
     display: flex;
     justify-content: start;
 }
-.user-sns-email-icon-container {
+.user-sns-icon__container--email {
     display: flex;
     justify-content: center;
     padding-right: 1rem;
 }
 
-.user-sns-discord-container {
+.user-info-sns-detail__container--discord {
     display: flex;
     justify-content: start;
 }
 
-.user-sns-discord-icon-container {
+.user-sns-icon__container--discord {
     display: flex;
     justify-content: center;
     padding-right: 1rem;
 
 }
 
-.user-sns-instagram-container {
+.user-info-sns-detail__container--instagram {
     display: flex;
     justify-content: start;
 }
 
-.user-sns-instagram-icon-container {
+.user-sns-icon__container--instagram {
     display: flex;
     justify-content: center;
     padding-right: 1rem;
