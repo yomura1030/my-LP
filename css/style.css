@@ -36,6 +36,15 @@ nav {
   height: 8rem;
 }
 
+ul {
+  padding-left: 0;
+}
+
+li {
+  list-style: none;
+  padding-left: 0;
+}
+
 
 .user-section {
   margin-bottom: 0;
