@@ -194,53 +194,53 @@ li {
     margin: 0;
 }
 
-.future-experience-text-list {
+.future-experience__text-list {
   padding: 0;
 }
 
-.future-experience-container {
+.future-experience__container {
   display: flex;
 }
 
-.future-experience-title-container {
+.future-experience__title-container {
   display: flex;
 }
 
-.future-experience-icon-container {
+.future-experience__title-icon-container {
   display: flex;
   align-items: center;
 }
 
-.future-experience-title {
+.future-experience__title {
   padding-left: 1.5rem;
     font-size: 2rem;
     font-weight: bold;
     letter-spacing: 0.3rem;
 }
 
-.future-experience-text-container {
+.future-experience__text-item {
   list-style: none;
   display: flex;
 }
 
-.future-experience-date {
+.future-experience__text--date {
   margin-right: 5rem;
   font-size: 1.2rem;
   font-weight: bold;
 }
 
-.experience-text {
+.experience__text {
   font-size: 1.2rem;
   font-weight: bold;
 }
 
-.future-text {
+.future__text {
   font-size: 1.2rem;
   font-weight: bold;
   color: rgb(99, 157, 243);
 }
 
-.future-experience-graph-icon-container {
+.future-experience-graph-icon__container {
   display: flex;
   align-items: end;
 }
@@ -477,7 +477,7 @@ h1.main__content-title {
   align-items: center;
 }
 
-.future-experience-container {
+.future-experience__container {
   justify-content: space-between;
 }
 
@@ -688,16 +688,16 @@ nav {
 
 /* Future & Experience */
 
-.future-experience-section {
+.future-experience {
   max-width: max-content;
   margin: 4rem auto;
 }
 
-.future-experience-title-container {
+.future-experience__title-container {
   justify-content: center;
 }
 
-.future-experience-title {
+.future-experience__title {
   padding-right: 1.5rem;
   padding-left: 1.5rem;
     font-size: 1.5rem;
@@ -705,15 +705,15 @@ nav {
     letter-spacing: 0rem;
 }
 
-.future-experience-container {
+.future-experience__container {
   justify-content: center;
 }
 
-.future-experience-date {
+.future-experience__text--date {
   margin-right: 2rem;
 }
 
-.future-experience-graph-icon-container {
+.future-experience-graph-icon__container {
   display: none;
 }
 
@@ -963,16 +963,16 @@ body {
 
 /* Future & Experience */
 
-.future-experience-section {
+.future-experience {
   max-width: max-content;
   margin: 4rem auto;
 }
 
-.future-experience-title-container {
+.future-experience__title-container {
   justify-content: center;
 }
 
-.future-experience-title {
+.future-experience__title {
   padding-right: 1.5rem;
   padding-left: 1rem;
     font-size: 1.3rem;
@@ -980,24 +980,24 @@ body {
     letter-spacing: 0rem;
 }
 
-.future-experience-container {
+.future-experience__container {
   justify-content: center;
 }
 
-.future-experience-date {
+.future-experience__text--date {
   font-size: 1rem;
   margin-right: 1.5rem;
 }
 
-.experience-text {
+.experience__text {
   font-size: 1rem;
 }
 
-.future-text {
+.future__text {
   font-size: 1rem;
 }
 
-.future-experience-graph-icon-container {
+.future-experience-graph-icon__container {
   display: none;
 }
 
