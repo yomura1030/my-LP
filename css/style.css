@@ -17,7 +17,7 @@ header {
 }
 
 main {
-    width: 67%;
+    width: 100%;
     background-color: rgb(249, 245, 245);
 }
 
@@ -268,19 +268,22 @@ li {
 
 .interest__link-container--top {
   display: flex;
+  gap: 0.4rem;
 
 }
 
 .interest__link-container--bottom {
   display: flex;
+  gap: 0.4rem;
+  flex-wrap: wrap;
 }
 
 a.interest__link {
   display: flex;
   align-items: center;
   gap: 0.5rem;
-	margin: 0 0.4em 0.6rem 0;
-	padding: .6em;
+  height: 2.3rem;
+	padding: 0 .6em;
 	line-height: 1;
 	text-decoration: none;
 	background-color: rgb(249, 245, 245);
@@ -457,12 +460,6 @@ a.interest__link {
     display: none;
   }
 
-  main {
-    width: 100%;
-    background-color: rgb(249, 245, 245);
-    margin: auto;
-}
-
 nav {
   height: 6rem;
 }
@@ -470,6 +467,10 @@ nav {
 h1.main__content-title {
   margin: 0 0;
   padding-top: 2rem;
+}
+
+.main__content {
+  padding: 1rem;
 }
 
 .my-product-movie__container {
@@ -503,12 +504,6 @@ h1.main__content-title {
   header {
     display: none;
   }
-
-  main {
-    width: 100%;
-    background-color: rgb(249, 245, 245);
-    margin: auto;
-}
 
 h1.main__content-title {
   margin: 0 0;
@@ -588,9 +583,6 @@ nav {
   margin: 1rem 0 0.5rem 0;
 }
 
-.interest__link-container--top {
-  justify-content: center;
-}
 
 .interest__title--tool {
   display: flex;
@@ -698,8 +690,7 @@ nav {
 }
 
 .future-experience__title {
-  padding-right: 1.5rem;
-  padding-left: 1.5rem;
+  padding: 0 1rem;
     font-size: 1.5rem;
     font-weight: bold;
     letter-spacing: 0rem;
@@ -763,6 +754,7 @@ nav {
 
 .decision__title--main {
   font-size: 1.7rem;
+  letter-spacing: 0.2rem;
 }
 
 .decision__text {
