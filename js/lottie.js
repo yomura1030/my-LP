@@ -7,7 +7,7 @@ const discord_anime = lottie.loadAnimation({
     render: 'svg',
     loop: true,
     autoplay: false,
-    path: '/json/discord.json'
+    path: 'json/discord.json'
 },
 )    
 
@@ -23,7 +23,7 @@ const instagram_anime = lottie.loadAnimation({
     render: 'svg',
     loop: false,
     autoplay: false,
-    path: '/json/instagram-icon.json'
+    path: 'json/instagram-icon.json'
 })
 
 instagram_icon_container.addEventListener('mouseenter', () => {
